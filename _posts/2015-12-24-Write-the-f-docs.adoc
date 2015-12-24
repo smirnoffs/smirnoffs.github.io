@@ -1,0 +1,19 @@
+= Write the f*** docs
+
+
+
+From my own experience project complexity is a matter of design and documentation. Less time spent on design and business flow description? Then probably development and future support would take more time. There are a lot of projects with pretty complex implementation that are easy readable and maintainable. +
+
+It's so obvious that we need briefly document all our code and their behavior but all the time here and there I found code without any description and implicit behavior. 
+
+
+Here is an example from my current project:
+----
+class SomeList(models.Model):
+    item = models.ForeignKey(Item)
+    status = models.IntegerField()
+----
+
+There is no chance to understand what *status* is without asking the author of that model. +
+
+It's so easy! Write the f*** docs!
