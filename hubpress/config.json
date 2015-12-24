@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "smirnoffs",
-    "repositoryName": "smirnoffs.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"smirnoffs","repositoryName":"smirnoffs.github.io","branch":"master","cname":""},"site":{"title":"Work related things","disqus":"smirnoffsgithubio","url":"https://smirnoffs.github.io"},"socialnetwork":{},"theme":{"name":"Casper","url":"//smirnoffs.github.io/themes/Casper"}}
