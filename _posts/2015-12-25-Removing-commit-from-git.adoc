@@ -1,0 +1,14 @@
+= Removing commit from git
+
+To remove the last commit from git run 
+----
+git reset --hard HEAD^
+----
+If you need to remove multiple commits then you have to change *^* to numbers of commits that you want to remove. For example for 3 commits run
+----
+git reset --hard HEAD~3
+----
+If you already pushed those commits you need to make force push
+----
+git push origin master --force
+----
