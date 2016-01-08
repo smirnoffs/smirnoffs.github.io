@@ -1,0 +1,8 @@
+= Problem with six package on El Capitan
+
+I was trying to install link:http://virtualenvwrapper.readthedocs.org/en/latest/index.html[Virtualenv Wrapper] on my new Macbook and pip failed on installing *six*. Turns out that El Capitan has its own *six* installed in system protected folder. 
+
+The solution is next:
+```
+pip install virtualenvwrapper --ignore-installed six
+```
